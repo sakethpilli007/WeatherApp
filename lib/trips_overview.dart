@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'CurrentWeather.dart';
+import 'current_weather.dart';
 
 
 class TripsOverview extends StatelessWidget {
-  const TripsOverview({Key? key}) : super(key: key);
+  const TripsOverview({super.key});
 
   @override
   Widget build(BuildContext context) {
