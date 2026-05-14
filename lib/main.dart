@@ -1,21 +1,7 @@
 import 'package:flutter/material.dart';
+import 'CurrentWeather.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MaterialApp(home: CurrentWeather()));
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-          // git testing (ground control to major tom) 
-        ),
-      ),
-    );
-  }
-}
