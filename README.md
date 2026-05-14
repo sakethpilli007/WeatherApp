@@ -1,2 +1,3 @@
-# WeatherApp
-Our beautiful amazing spectacular weather app
+# weatherapp
+
+A new Flutter project.
