@@ -1,23 +1,20 @@
 import 'package:flutter/material.dart';
-import 'current_weather.dart';
-
 
 class TripsOverview extends StatelessWidget {
   const TripsOverview({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Center(
-          child: ElevatedButton(style: ButtonStyle(), child: const Text("back home"),
-          onPressed: (){
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const CurrentWeather()),
-            );
-          }),
-          
+    // A clean container with no duplicate headers, Scaffolds, or SafeArea
+    return const Center(
+      child: Text(
+        "Trips Content Screen Layout",
+        style: TextStyle(
+          color: Colors.white, 
+          fontSize: 18,
+          fontWeight: FontWeight.w500,
         ),
-      );
+      ),
+    );
   }
 }
