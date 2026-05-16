@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-class MapsService {
+class CurrentService {
   final String apiKey;
 
-  MapsService({required this.apiKey});
+  CurrentService({required this.apiKey});
 
   // private helper method
   Future<dynamic> _fetchJson(String urlString) async {
@@ -30,5 +30,17 @@ class MapsService {
     } else {
       throw Exception('Geocoding API error: ${data['status']}');
     }
+  }
+
+  void getCurrentWeather() async {
+    
+  }
+
+  void getDailyForecast() async {
+    
+  }
+
+  void getHourlyForecast() async {
+    
   }
 }
