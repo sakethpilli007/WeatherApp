@@ -32,15 +32,15 @@ class CurrentService {
     }
   }
 
-  void getCurrentWeather() async {
-    
+  getCurrentWeather() async {
+    throw UnimplementedError();
   }
 
-  void getDailyForecast() async {
-    
+  getDailyForecast() async {
+    throw UnimplementedError();
   }
 
-  void getHourlyForecast() async {
-    
+  getHourlyForecast() async {
+    throw UnimplementedError();
   }
 }

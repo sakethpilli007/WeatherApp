@@ -5,6 +5,7 @@ import 'package:weatherapp/services/current_service.dart';
 
 void main() {
   late CurrentService currentService;
+  
   setUpAll(() {
     final envFileString = File('.env').readAsStringSync();
     dotenv.loadFromString(envString: envFileString);
